@@ -24,6 +24,7 @@ int main()
 	{
 		printf("You have entered 1 number at index %d which is %d\n", i,*ptr+i);
 	}
+	free(ptr);
 
 	return (0);
 }
